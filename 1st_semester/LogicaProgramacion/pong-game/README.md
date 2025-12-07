@@ -1,6 +1,8 @@
 # PONG Game - Python Implementation
 
-A fully-featured Pong game implementation in Python using Pygame, following SOLID principles and modern game architecture patterns.
+A fully-featured Pong game implementation in Python using Pygame.
+
+Author: Requena Patricio
 
 ## Features
 
