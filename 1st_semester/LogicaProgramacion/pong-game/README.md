@@ -15,19 +15,6 @@ A fully-featured Pong game implementation in Python using Pygame, following SOLI
 
 ## Architecture Overview
 
-### Design Patterns
-- **State Pattern**: Game state management (Menu, In-Game, Game-Over)
-- **Strategy Pattern**: AI difficulty levels
-- **MVC-like Architecture**: Entities (Model), Rendering (View), Systems (Controller)
-- **Factory Pattern**: Entity creation
-
-### SOLID Principles
-- **Single Responsibility**: Each class has one reason to change
-- **Open/Closed**: Open for extension, closed for modification
-- **Liskov Substitution**: Entities are interchangeable
-- **Interface Segregation**: Focused interfaces for each system
-- **Dependency Inversion**: Depend on abstractions, not concrete implementations
-
 ### System Architecture
 ```
 Game Manager (PongGame)
@@ -43,8 +30,8 @@ Game Manager (PongGame)
 ### Setup
 ```bash
 # Clone repository
-git clone <your-repo>
-cd pong-game
+git clone https://github.com/rrequeena/beng-ai-projects/
+cd 1st_semester/LogicaProgramacion/pong-game
 
 # Create virtual environment
 python -m venv venv
@@ -55,6 +42,7 @@ pip install -r requirements.txt
 ```
 
 ### Run Game
+
 ```bash
 python -m src.main
 ```
@@ -66,7 +54,6 @@ python -m src.main
 | **W** | Move paddle up |
 | **S** | Move paddle down |
 | **SPACE** | Start game / Pause |
-| **ESC** | Return to menu |
 
 ## Game Physics
 
@@ -145,40 +132,4 @@ pong-game/
 │   └── utils/
 │       ├── __init__.py
 │       └── constants.py
-└── tests/
-    ├── __init__.py
-    ├── test_ball.py
-    └── test_paddle.py
 ```
-
-## Testing
-
-```bash
-# Run tests
-pytest tests/
-
-# Run with coverage
-pytest --cov=src tests/
-```
-
-## Future Enhancements
-
-- [ ] Sound effects and music
-- [ ] Particle effects on collisions
-- [ ] Power-ups
-- [ ] Two-player multiplayer mode
-- [ ] Different game modes
-- [ ] Leaderboard system
-- [ ] Settings menu with graphics options
-
-## Performance Metrics
-
-- **Fixed Timestep**: 60 FPS (16.67ms per frame)
-- **Physics Update**: O(n) where n = entities
-- **Collision Detection**: O(n) AABB checks
-- **Rendering**: O(n) draw calls
-- **AI Calculation**: O(1) per update
-
-## License
-
-MIT License
