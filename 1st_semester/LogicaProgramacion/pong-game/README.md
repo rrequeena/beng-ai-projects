@@ -104,8 +104,6 @@ pong-game/
 ├── .gitignore
 ├── docs/
 │   ├── 01_flowcharts.md
-│   ├── 02_architecture.md
-│   └── 03_design_patterns.md
 ├── src/
 │   ├── __init__.py
 │   ├── main.py
