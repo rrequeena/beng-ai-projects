@@ -1,6 +1,5 @@
 """
 Button UI Component
-SOLID: Single Responsibility - Button rendering and interaction only
 """
 import pygame
 from src import config

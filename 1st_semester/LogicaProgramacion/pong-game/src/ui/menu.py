@@ -1,6 +1,5 @@
 """
 Menu UI Component
-SOLID: Single Responsibility - Menu display and interaction only
 """
 
 import pygame

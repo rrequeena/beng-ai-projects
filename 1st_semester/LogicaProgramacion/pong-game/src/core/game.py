@@ -1,6 +1,5 @@
 """
 Main Game Manager - Orchestrates all systems
-SOLID: Dependency Inversion - Depends on abstractions (systems)
 """
 
 import pygame

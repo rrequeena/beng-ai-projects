@@ -111,8 +111,7 @@ pong-game/
 │   ├── core/
 │   │   ├── __init__.py
 │   │   ├── game.py
-│   │   ├── game_state.py
-│   │   └── game_loop.py
+│   │   └── game_state.py
 │   ├── entities/
 │   │   ├── __init__.py
 │   │   ├── paddle.py

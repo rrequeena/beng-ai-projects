@@ -1,6 +1,5 @@
 """
 UI Manager - Central coordinator for all UI components
-SOLID: Single Responsibility - UI coordination only
 """
 
 import pygame

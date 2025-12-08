@@ -1,7 +1,6 @@
 """
 Game Configuration
 All constants and settings for the Pong game.
-SOLID: Single Responsibility - Configuration only
 """
 
 # ============ DISPLAY SETTINGS ============

@@ -1,7 +1,5 @@
 """
 AI System - CPU Player Decision Making
-SOLID: Single Responsibility - AI logic only
-Strategy Pattern: Different difficulty levels use different algorithms
 """
 
 import random
